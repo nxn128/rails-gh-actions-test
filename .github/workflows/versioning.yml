@@ -19,7 +19,6 @@ jobs:
           extra_plugins: |
             @semantic-release/git
             @semantic-release/changelog
-        with:
           semantic_version: 16
           # you can set branches for semantic-release above v16.
           branches: |
